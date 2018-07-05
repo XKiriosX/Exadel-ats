@@ -4,7 +4,7 @@
   "description": "Educational web app, developed by Exadel",
   "main": "index.js",
   "dependencies": {
-    
+
   },
   "devDependencies": {
     "eslint": "^4.19.1",
@@ -14,7 +14,8 @@
     "eslint-plugin-react": "^7.9.1"
   },
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "autofix": "node node_modules/eslint/bin/eslint --fix"
   },
   "author": "",
   "license": "ISC"
