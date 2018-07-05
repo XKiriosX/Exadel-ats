@@ -4,7 +4,7 @@
   "description": "Educational web app, developed by Exadel",
   "main": "index.js",
   "dependencies": {
-    "npm": "^6.1.0"
+    
   },
   "devDependencies": {
     "eslint": "^4.19.1",
