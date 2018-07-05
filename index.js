@@ -1,4 +1,4 @@
-//JUST RANDOM CODE TO TEST ESLINT BELOW
+// JUST RANDOM CODE TO TEST ESLINT BELOW
 const no = 15; // количество снежинок
 const speed = 1; // скорость снежинок
 const snowflake = 'sneg.gif';
