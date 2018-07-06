@@ -1,10 +1,14 @@
 {
   "name": "werunner",
   "version": "1.0.0",
+  "private": true,
   "description": "Educational web app, developed by Exadel",
   "main": "index.js",
   "dependencies": {
-    "npm": "^6.1.0"
+    "npm": "^6.1.0",
+	"react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
@@ -14,7 +18,10 @@
     "eslint-plugin-react": "^7.9.1"
   },
   "scripts": {
-    "test": "start"
+	"start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "author": "",
   "license": "ISC"
