@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Educational web app, developed by Exadel",
   "main": "index.js",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
@@ -14,7 +12,8 @@
     "eslint-plugin-react": "^7.9.1"
   },
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "autofix": "node node_modules/eslint/bin/eslint --fix"
   },
   "author": "",
   "license": "ISC"
