@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Educational web app, developed by Exadel",
   "main": "index.js",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
